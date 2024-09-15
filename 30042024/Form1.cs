@@ -7,6 +7,7 @@ namespace _30042024
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show("Изменения");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -64,4 +65,5 @@ namespace _30042024
                 textBox2.PasswordChar = '*'; // Пароль скрыт
         }
     }
+   
 }
